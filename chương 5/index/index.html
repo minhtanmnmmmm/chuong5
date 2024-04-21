@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="../style/style.css">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">TRANG CHỦ</a></li>
+            <li><a href="#">ĐÀO TẠO</a>
+                <ul>
+                    <li><a href="#">ĐỒ HỌA</a></li>
+                    <li><a href="#">WEB</a></li>
+                    <li><a href="#">MẠNG</a></li>
+                </ul>
+            </li>
+            <li><a href="#">DỊCH VỤ</a></li>
+            <li><a href="#">LIÊN HỆ</a></li>
+        </ul>
+    </nav>
+</body>
+<script>
+    $(document).ready(function() {
+    $('#pull').click(function() {
+      $('nav ul').toggleClass('show');
+    });
+  });
+</script>
+</html>
